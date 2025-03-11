@@ -1,0 +1,29 @@
+{
+  "success": true,
+  "orders": [
+    {
+      "order_id": "ORD123456",
+      "order_date": "2024-03-18T10:30:00Z",
+      "total_amount": 2499.0,
+      "payment_status": "paid",
+      "items": [
+        {
+          "item_id": "ITEM789",
+          "name": "Nike Air Max",
+          "quantity": 1,
+          "price": 2499.0,
+          "color": "Black",
+          "size": "UK 9"
+        }
+      ],
+      "shipping_address": {
+        "full_name": "John Doe",
+        "street": "123 Main St",
+        "city": "Bangalore",
+        "state": "Karnataka",
+        "pincode": "560001"
+      }
+    }
+  ],
+  "total_orders": 1
+}

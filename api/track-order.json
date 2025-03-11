@@ -1,0 +1,25 @@
+{
+  "success": true,
+  "order": {
+    "order_id": "ORD123456",
+    "status": "in_transit",
+    "current_location": {
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "last_updated": "2024-03-19T14:30:00Z"
+    },
+    "estimated_delivery": "2024-03-21T18:00:00Z",
+    "tracking_events": [
+      {
+        "timestamp": "2024-03-19T14:30:00Z",
+        "location": "Mumbai Hub",
+        "status": "Out for delivery"
+      },
+      {
+        "timestamp": "2024-03-19T08:15:00Z",
+        "location": "Delhi Sorting Center",
+        "status": "Package processed"
+      }
+    ]
+  }
+}

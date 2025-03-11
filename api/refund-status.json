@@ -1,0 +1,18 @@
+{
+  "success": true,
+  "refund": {
+    "refund_id": "REF789012",
+    "order_id": "ORD123456",
+    "status": "processed",
+    "amount": 2499.0,
+    "initiated_date": "2024-03-17T15:45:00Z",
+    "processed_date": "2024-03-19T11:20:00Z",
+    "payment_method": {
+      "type": "upi",
+      "last4": "1234"
+    },
+    "reason": "Item returned",
+    "estimated_credit_date": "2024-03-21T00:00:00Z",
+    "notes": "Refund will be credited to original payment method"
+  }
+}
